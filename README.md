@@ -177,7 +177,7 @@ template has been extended to support public and private repositories
 in GitHub as an alternative to AWS CodeCommit.
 
 Your GitHub repository must already exist when you create or update
-the CloudFormation stack. You must also generate a (secret) personal
+the CloudFormation stack. You must also generate a personal(secret)
 access token on GitHub and save it in AWS SSM Parameter Store.
 
 Here are Amazon's instructions for generating the GitHub personal
